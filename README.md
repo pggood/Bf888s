@@ -23,6 +23,16 @@ It uses an ABOV and a bk4811 that has a frequency range of 127 to 525Mhz <br>
 1 VSS<br>
 <br>
 16 Channel Switch E1-2 and E2-2 to GND<br>
+1	0	1	0<br>
+0	0	1	0<br>
+0	0	0	0<br>
+0	1	0	0<br>
+1	1	1	1<br>
+1	0	1	1<br>
+0	0	0	1<br>
+0	1	1	1<br>
+1	1	0	0<br>
+1	0	0	0<br>
 
 The BK4811B is a half duplex TDD FM transceiver operating from 127 MHz to 525 MHz band for worldwide personal radio service.
 Key Features<br>
