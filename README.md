@@ -7,7 +7,7 @@ The BF888 uses an ABOV processor and a bk4811 that has a frequency range of 127 
 17 P02/AN2/AVREF/EINT0 CLOCK SPI to BK4811<br>
 16 P03/AN3/EINT1 Enable SPI to BK4811<br>
 15 P11/AN8/EINT6/EC1/BUZO Data SPI to BK4811<br>
-14 P12/AN9/EINT11/T1O/PWM1O Inerupt from BK4811<br>
+14 P12/AN9/EINT11/T1O/PWM1O Interupt from BK4811<br>
 13 P13/AN10/EINT12/T2O/PWM2O led torch<br>
 12 P14/AN11/MISO to transistor on recieve<br>
 11 P15/AN12/MOSI RX LED<br>
