@@ -1,6 +1,7 @@
 Adventures in using a BF888 removing its brain and connecting an arduino
 I started out using a HAMShield however it uses a RDA1846 and there doesnt appear to be a way of getting to the discrminator
 The BF888 uses an ABOV processor and a bk4811 that has a frequency range of 127 to 525Mhz <br>
+ABOV Pin Connections<br>
 20 VDD<br>
 19 P00/AN0/DSDA tp3<br>
 18 P01/AN1/DSCL tp8<br>
