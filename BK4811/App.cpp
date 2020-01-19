@@ -3286,6 +3286,7 @@ void command_handle(void)
   if (Serial.available() > 0) {
     // read the incoming byte:
     incomingByte = Serial.read();
+    // detect end of line cr
     if (incomingByte == 13) {
       switch (message_type)
       {
@@ -3783,14 +3784,15 @@ void command_handle(void)
       message_type = 0;
       pOutPayloadpos = 0;
     }
-    if (incomingByte > 47 && incomingByte < 58) {
-      HexNibble = incomingByte - 48;
+     // convert ASCII HEX to message type and pOutPayload array
+     if (incomingByte > 47 && incomingByte < 58) {
+      HexNibble = incomingByte - 48; //ASCII Decimal
     }
     if (incomingByte > 64 && incomingByte < 71) {
-      HexNibble = incomingByte - 55;
+      HexNibble = incomingByte - 55; // Lowercase a-f
     }
     if (incomingByte > 96 && incomingByte < 103) {
-      HexNibble = incomingByte - 87;
+      HexNibble = incomingByte - 87; //Uppercase A-F
     }
 
 
